@@ -1,0 +1,76 @@
+#root{
+    min-height: 78vh;
+}
+.contenidopie{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    /* WRAP REVERSE HACE AL REVES EL ITEM DE LA IZQ PASA ABAJO MIENTRAS QUE LOS DE LA DERECHA SE AGRUPAN ARRIBA DE EL */
+  }
+
+  .footer{
+      background-color: #EA899A;
+      width: 100%;
+  }
+
+  .pink{
+      color: #E53D75;
+  }
+
+  .api{
+      color: #E53D75;
+  }
+  
+.redes{
+    margin: 20px 0;
+  }
+
+  .redes a{
+    color: #001a21;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+
+  .redes a:hover{
+    color: #fc5c65;
+  }
+
+  .derecha h1{
+    font-size: 26px;
+  }
+
+  .border{
+    width: 100px;
+    height: 4px;
+    background: #E53D75;
+  }
+
+  .display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+
+  @media (max-width:960px) {
+ 
+    
+  
+    .izquierda{
+      width: 100%;
+      margin-bottom: 60px;
+    }
+  
+    .derecha{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
